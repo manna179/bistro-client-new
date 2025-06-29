@@ -1,0 +1,118 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+
+const HotDeals = () => {
+  return (
+    <div>
+      <h2 className="font-semibold text-2xl mb-3 ">Hot Deals!</h2>
+      {/* Swiper section for hot deals! */}
+      <section>
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={3}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              alt=""
+            />
+          </SwiperSlide>
+        </Swiper>
+      </section>
+    </div>
+  );
+};
+
+export default HotDeals;

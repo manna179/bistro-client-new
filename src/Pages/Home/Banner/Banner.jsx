@@ -6,7 +6,7 @@ const Banner = () => {
       <Carousel>
         <div className=" ">
           <img src="https://i.ibb.co/jygtfk9/meat-dish-with-vegetables-1.jpg"/>
-         <button className="btn btn-accent   ">click me </button>
+         
         </div>
         <div>
           <img src="https://i.ibb.co/jygtfk9/meat-dish-with-vegetables-1.jpg" />

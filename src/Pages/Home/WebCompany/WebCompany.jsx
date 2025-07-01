@@ -14,91 +14,123 @@ const WebCompany = () => {
        navigation={true}
        modules={[Navigation]}
         className="mySwiper mt-12 mb-4"
-         spaceBetween={50}
-        slidesPerView={2}
+         spaceBetween={2}
+        slidesPerView={'auto'}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         >
-        <SwiperSlide>
-          <div className="flex justify-items-end gap-8 items-center">
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
             <img
-              className="h-24"
+              className="h-12 rounded-xl"
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
             <h3>CodePen!</h3>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex justify-items-end gap-8 items-center">
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
             <img
-              className="h-24"
+              className="h-12 rounded-xl"
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
             <h3>CodePen!</h3>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex justify-items-end gap-8 items-center">
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
             <img
-              className="h-24"
+              className="h-12 rounded-xl"
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
             <h3>CodePen!</h3>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex justify-items-end gap-8 items-center">
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
             <img
-              className="h-24"
+              className="h-12 rounded-xl"
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
             <h3>CodePen!</h3>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex justify-items-end gap-8 items-center">
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
             <img
-              className="h-24"
+              className="h-12 rounded-xl"
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
             <h3>CodePen!</h3>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex justify-items-end gap-8 items-center">
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
             <img
-              className="h-24"
+              className="h-12 rounded-xl"
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
             <h3>CodePen!</h3>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex justify-items-end gap-8 items-center">
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
             <img
-              className="h-24"
+              className="h-12 rounded-xl"
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
             <h3>CodePen!</h3>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex justify-items-end gap-8 items-center">
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
             <img
-              className="h-24"
+              className="h-12 rounded-xl"
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
             <h3>CodePen!</h3>
           </div>
         </SwiperSlide>
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
+            <img
+              className="h-12 rounded-xl"
+              src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
+              alt=""
+            />
+            <h3>CodePen!</h3>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="!w-[100%] 
+              md:!w-[30%] lg:!w-1/6 ">
+          <div className="flex gap-2 items-center ">
+            <img
+              className="h-12 rounded-xl"
+              src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
+              alt=""
+            />
+            <h3>CodePen!</h3>
+          </div>
+        </SwiperSlide>
+        
+        
         
       </Swiper>
     </div>

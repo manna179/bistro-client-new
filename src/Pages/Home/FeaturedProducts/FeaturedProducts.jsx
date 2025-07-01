@@ -10,12 +10,13 @@ const FeaturedProducts = () => {
       <section>
         <Swiper
           className=""
-          spaceBetween={50}
-          slidesPerView={3}
+          spaceBetween={2}
+          slidesPerView={'auto'}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
         >
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -36,7 +37,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -57,7 +59,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -78,7 +81,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -99,7 +103,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -120,7 +125,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -141,7 +147,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -162,7 +169,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -183,7 +191,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -204,7 +213,8 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <div className="flex flex-col space-y-3">
               <div className="flex justify-items-end gap-8 items-center ">
                 <img
@@ -225,6 +235,29 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
+            <div className="flex flex-col space-y-3">
+              <div className="flex justify-items-end gap-8 items-center ">
+                <img
+                  className="h-24 rounded-lg hover:shadow-blue-900 hover:shadow-2xl "
+                  src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
+                  alt=""
+                />
+                <Link className="hover:text-red-400">Hot Categories</Link>
+              </div>
+              {/* second row for popularCategory slide */}
+              <div className="flex justify-items-end gap-8 items-center ">
+                <img
+                  className="h-24 rounded-lg hover:shadow-blue-900 hover:shadow-2xl "
+                  src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
+                  alt=""
+                />
+                <Link className="hover:text-red-400">Hot Categories</Link>
+              </div>
+            </div>
+          </SwiperSlide>
+          
         </Swiper>
       </section>
     </div>

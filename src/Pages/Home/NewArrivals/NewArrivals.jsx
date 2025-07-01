@@ -30,107 +30,110 @@ const NewArrivals = () => {
       <div>
         <Swiper
           className=""
-          spaceBetween={50}
-          slidesPerView={3}
+          spaceBetween={2}
+          slidesPerView={'auto'}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
         >
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
               src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
-              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
-              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="!w-[100%] 
+              md:!w-[50%] lg:!w-1/3 ">
             <img
-              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
+              src="https://i.ibb.co/wCPtVgc/close-up-view-cooking-with-fresh-vegetables-chopped-foods-black-table.jpg"
               alt=""
             />
           </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
-              alt=""
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://i.ibb.co/N68xdR6/lavash-rolls-with-stuffings-tomatoes.jpg"
-              alt=""
-            />
-          </SwiperSlide>
+          
         </Swiper>
       </div>
     </section>

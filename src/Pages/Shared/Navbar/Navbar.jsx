@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar fixed top-0 z-10  max-w-7xl mx-auto">
+    <div className="navbar fixed top-0 z-10 bg-red-100 max-w-7xl mx-auto">
       <div className="flex-1">
         <Link className="btn btn-ghost text-xl text-accent-content font-semibold">TOKIO</Link>
       </div>
